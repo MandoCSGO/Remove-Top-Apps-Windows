@@ -4,9 +4,8 @@
 
 ![Screenshot 2024-03-20 212227](https://github.com/MandoCSGO/RemoveTopAppsWindows10/assets/30785368/49abf11e-253c-4e20-bf8d-5af80884cb93)
 
-Download [BeautySearch](https://github.com/krlvm/BeautySearch/releases/tag/v1.17)
+Download [BeautySearch](https://github.com/krlvm/BeautySearch/releases/tag/v1.17) and install
 
-Run the command prompt as an administrator and navigate to your directory where you have 'ViVeTool.exe'
 Check that you have 'BeautySearch.js' in
 ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
 
