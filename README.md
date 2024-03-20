@@ -10,7 +10,9 @@ Check that you have 'BeautySearch.js' in
 
 ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
 
-Grant editing permissions to 'BeautySearch.js' and go to line 185 ```sa_config.showCloseButton = !SETTINGS.hideCloseButton;```
+Grant editing permissions to 'BeautySearch.js' and go to line 185
+
+```sa_config.showCloseButton = !SETTINGS.hideCloseButton;```
 
 Add this line of code under line 185
 
@@ -24,9 +26,13 @@ Save the file and restart your computer
 
 ***If you get an error when clicking on the 'install' button follow these steps:***
 
-Download [BeautySearch.js](https://github.com/krlvm/BeautySearch/blob/master/BeautySearch/Scripts/BeautySearch.js) and move it to ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
+Download [BeautySearch.js](https://github.com/krlvm/BeautySearch/blob/master/BeautySearch/Scripts/BeautySearch.js) and move it to
 
-Grant editing permissions to 'BeautySearch.js' and go to line 185 ```sa_config.showCloseButton = !SETTINGS.hideCloseButton;```
+```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
+
+Grant editing permissions to 'BeautySearch.js' and go to line 185
+
+```sa_config.showCloseButton = !SETTINGS.hideCloseButton;```
 
 Add this line of code under line 185
 
