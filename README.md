@@ -7,13 +7,16 @@
 Download [BeautySearch](https://github.com/krlvm/BeautySearch/releases/tag/v1.17) and install
 
 Check that you have 'BeautySearch.js' in
+
 ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
 
 Grant editing permissions to 'BeautySearch.js' and go to line 185 ```sa_config.showCloseButton = !SETTINGS.hideCloseButton;```
 
 Add this line of code under line 185
 
-```sa_config.enabledDataSources = ["DFLS","CUSE","QSCH","WWE","PP","IBA","ST","FEH","Web","OSTMA","QS","IFF","MPVD","MDOC","MFOL","MPHO","MVID","MMUS","ODC","MRU","MPP","MST","MFF","MRS","CG","PT","SSUE","SSUC","SSEE","SSEC","TS","ANA"];```
+```
+sa_config.enabledDataSources = ["DFLS","CUSE","QSCH","WWE","PP","IBA","ST","FEH","Web","OSTMA","QS","IFF","MPVD","MDOC","MFOL","MPHO","MVID","MMUS","ODC","MRU","MPP","MST","MFF","MRS","CG","PT","SSUE","SSUC","SSEE","SSEC","TS","ANA"];
+```
 
 _If you want to change other BeautySearch settings change them in this .js file_
 
@@ -27,15 +30,21 @@ Grant editing permissions to 'BeautySearch.js' and go to line 185 ```sa_config.s
 
 Add this line of code under line 185
 
-```sa_config.enabledDataSources = ["DFLS","CUSE","QSCH","WWE","PP","IBA","ST","FEH","Web","OSTMA","QS","IFF","MPVD","MDOC","MFOL","MPHO","MVID","MMUS","ODC","MRU","MPP","MST","MFF","MRS","CG","PT","SSUE","SSUC","SSEE","SSEC","TS","ANA"];```
+```
+sa_config.enabledDataSources = ["DFLS","CUSE","QSCH","WWE","PP","IBA","ST","FEH","Web","OSTMA","QS","IFF","MPVD","MDOC","MFOL","MPHO","MVID","MMUS","ODC","MRU","MPP","MST","MFF","MRS","CG","PT","SSUE","SSUC","SSEE","SSEC","TS","ANA"];
+```
 
 Save and close the file
 
-Modify permissions for '2.html' in the same directory ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop``` so that it can be modified
+Modify permissions for '2.html' in the same directory 
+
+```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop``` so that it can be modified
 
 Edit '2.html' and add this at the end of the file
 
-```<script type="text/javascript" src="ms-appx-web:///cache/local/Desktop/BeautySearch.js"></script>```
+```
+<script type="text/javascript" src="ms-appx-web:///cache/local/Desktop/BeautySearch.js"></script>
+```
 
 Save the file and restart your computer
 
@@ -50,6 +59,8 @@ Run the command prompt as an administrator and navigate to your directory where 
 
 Run this command
 
-```.\ViVeTool.exe /disable /id:41868508```
+```
+.\ViVeTool.exe /disable /id:41868508
+```
 
 Restart your computer
