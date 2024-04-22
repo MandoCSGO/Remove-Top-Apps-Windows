@@ -8,9 +8,7 @@ Download 'BeautySearch.js' and move it to
 
 ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
 
-Modify permissions for '2.html' in the same directory 
-
-```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop``` so that it can be modified
+Modify permissions for '2.html' (located in the same directory) so that it can be modified
 
 Edit '2.html' and add this at the end of the file
 
