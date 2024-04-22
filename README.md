@@ -4,28 +4,6 @@
 
 ![Screenshot 2024-03-20 212227](https://github.com/MandoCSGO/RemoveTopAppsWindows10/assets/30785368/49abf11e-253c-4e20-bf8d-5af80884cb93)
 
-Download [BeautySearch](https://github.com/krlvm/BeautySearch/releases/tag/v1.17) and install
-
-Check that you have 'BeautySearch.js' in
-
-```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
-
-Grant editing permissions to 'BeautySearch.js' and go to line 185
-
-```sa_config.showCloseButton = !SETTINGS.hideCloseButton;```
-
-Add this line of code under line 185
-
-```
-sa_config.enabledDataSources = ["DFLS","CUSE","QSCH","WWE","PP","IBA","ST","FEH","Web","OSTMA","QS","IFF","MPVD","MDOC","MFOL","MPHO","MVID","MMUS","ODC","MRU","MPP","MST","MFF","MRS","CG","PT","SSUE","SSUC","SSEE","SSEC","TS","ANA"];
-```
-
-_If you want to change other BeautySearch settings change them in this .js file_
-
-Save the file and restart your computer
-
-***If you get an error when clicking on the 'install' button follow these steps:***
-
 Download 'BeautySearch.js' and move it to
 
 ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
