@@ -30,18 +30,6 @@ Download 'BeautySearch.js' and move it to
 
 ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
 
-Grant editing permissions to 'BeautySearch.js' and go to line 185
-
-```sa_config.showCloseButton = !SETTINGS.hideCloseButton;```
-
-Add this line of code under line 185
-
-```
-sa_config.enabledDataSources = ["DFLS","CUSE","QSCH","WWE","PP","IBA","ST","FEH","Web","OSTMA","QS","IFF","MPVD","MDOC","MFOL","MPHO","MVID","MMUS","ODC","MRU","MPP","MST","MFF","MRS","CG","PT","SSUE","SSUC","SSEE","SSEC","TS","ANA"];
-```
-
-Save and close the file
-
 Modify permissions for '2.html' in the same directory 
 
 ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop``` so that it can be modified
