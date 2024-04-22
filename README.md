@@ -26,7 +26,7 @@ Save the file and restart your computer
 
 ***If you get an error when clicking on the 'install' button follow these steps:***
 
-Download [BeautySearch.js](https://github.com/krlvm/BeautySearch/blob/master/BeautySearch/Scripts/BeautySearch.js) and move it to
+Download 'BeautySearch.js' and move it to
 
 ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
 
