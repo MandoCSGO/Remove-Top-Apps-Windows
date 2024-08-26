@@ -2,18 +2,26 @@
 
 ## How to remove "Top Apps" and "Suggestions"
 
-![Screenshot 2024-03-20 212227](https://github.com/MandoCSGO/RemoveTopAppsWindows10/assets/30785368/49abf11e-253c-4e20-bf8d-5af80884cb93)
+![Win10 11](https://github.com/user-attachments/assets/e65aabc7-8273-4e78-a1fb-7c4ca582038e)
 
-Download 'BeautySearch.js' and move it to
+Download [CleanSearch.js](https://github.com/MandoCSGO/Remove-Top-Apps-Windows/blob/main/CleanSearch.js) and move it to
 
-```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
+**(Win 10)** ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
+
+**(Win 11)** ```C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Cortana.UI\cache\SVLocal\Desktop```
 
 Modify permissions for '2.html' (located in the same directory) so that it can be modified
 
 Edit '2.html' and add this at the end of the file
 
+**(Win 10)**
 ```
-<script type="text/javascript" src="ms-appx-web:///cache/local/Desktop/BeautySearch.js"></script>
+<script type="text/javascript" src="ms-appx-web:///cache/local/Desktop/CleanSearch.js"></script>
+```
+
+**(Win 11)**
+```
+<script type="text/javascript" src="ms-appx-web:///Cortana.UI/cache/SVLocal/Desktop/CleanSearch.js"></script>
 ```
 
 Save the file and restart your computer
