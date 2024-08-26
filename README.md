@@ -6,9 +6,13 @@
 
 Download [CleanSearch.js](https://github.com/MandoCSGO/Remove-Top-Apps-Windows/blob/main/CleanSearch.js) and move it to
 
-**(Win 10)** ```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
+**(Win 10)**
 
-**(Win 11)** ```C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Cortana.UI\cache\SVLocal\Desktop```
+```C:\Windows\SystemApps\Microsoft.Windows.Search_cw5n1h2txyewy\cache\Local\Desktop```
+
+**(Win 11)**
+
+```C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Cortana.UI\cache\SVLocal\Desktop```
 
 Modify permissions for '2.html' (located in the same directory) so that it can be modified
 
